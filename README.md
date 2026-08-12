@@ -1,18 +1,25 @@
 # myket
 
-A little desktop cat for macOS.
+A little desktop cat for macOS, Windows, and Linux.
 
-**Source is not published.** This repo only ships macOS binaries via [Releases](https://github.com/asideofcode-dev/myket/releases).
+**Source is not published.** This repo only ships binaries via [Releases](https://github.com/asideofcode-dev/myket/releases).
 
 ## Download
 
-→ [**v0.1.0**](https://github.com/asideofcode-dev/myket/releases/tag/v0.1.0) — `myket_0.1.0_aarch64.dmg` (Apple Silicon)
+→ [**v0.1.1**](https://github.com/asideofcode-dev/myket/releases/tag/v0.1.1)
 
-## Install
+| Platform | Asset |
+| --- | --- |
+| macOS Apple Silicon | `myket_0.1.1_aarch64.dmg` |
+| macOS Intel | `myket_0.1.1_x64.dmg` |
+| Windows | `myket_0.1.1_x64-setup.exe` or `.msi` |
+| Linux | `myket_0.1.1_amd64.AppImage` or `.deb` |
 
-1. Download the DMG from the latest release  
-2. Open it and run **myket** (or drag to Applications)  
-3. First launch: **right-click → Open** (the build is unsigned)
+## Install notes
+
+- **macOS:** right-click → **Open** on first launch (unsigned)
+- **Windows:** SmartScreen may warn — More info → Run anyway
+- **Linux:** use the AppImage or install the `.deb`
 
 ## Controls
 
